@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- This line makes the page fit phone screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maryam | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">Maryam<span>.</span></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <p class="hero-small">Hello, I'm</p>
+      <h1>Maryam</h1>
+      <p class="hero-text">
+        Software Engineering student and aspiring front-end developer.
+        Welcome to my portfolio!
+      </p>
+      <div>
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div class="about-box">
+        <!-- Avatar: replace with <img src="photo.jpg" alt="Maryam" class="avatar"> if you have a photo -->
+        <div class="avatar">M</div>
+        <p>
+          I'm a Software Engineering student at the University of Agriculture
+          Faisalabad. I enjoy building websites and apps, and I'm learning
+          web development through the Saylani Mass IT Program. I love turning
+          ideas into clean, responsive pages.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Next.js</div>
+        <div class="skill">C++</div>
+        <div class="skill">C#</div>
+        <div class="skill">SQL</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <h3>Instagram Clone</h3>
+          <p>A social feed app built with HTML, CSS, JavaScript and Supabase to learn how a real backend works.</p>
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">Supabase</span>
+          <!-- Replace # with your real repo link -->
+          <a href="#" class="card-link">View on GitHub →</a>
+        </article>
+
+        <article class="card">
+          <h3>Course Tracking Dashboard</h3>
+          <p>A clean dashboard interface for tracking courses and progress, designed with HTML and CSS.</p>
+          <span class="tag">HTML</span><span class="tag">CSS</span>
+          <a href="#" class="card-link">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <h2>Contact</h2>
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <h3>Let's connect</h3>
+          <p>📧 <a href="mailto:maryamfew77@gmail.com">maryamfew77@gmail.com</a></p>
+          <p>💻 <a href="https://github.com/maryamfew77-art" target="_blank">GitHub</a></p>
+          <p>🔗 <a href="https://linkedin.com/in/maryam-mirza-81595137b" target="_blank">LinkedIn</a></p>
+        </div>
+
+        <!-- Simple form (no backend needed for this task) -->
+        <form action="mailto:maryamfew77@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-fill">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Maryam. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
